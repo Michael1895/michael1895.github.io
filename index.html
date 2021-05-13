@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Michael Tselos</title>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+        <div class="title text-center">
+          <h1>Michael Tselos</h1>
+          <h3>Backend Developer</h3>
+          <hr/>
+          <ul class="list-inline">
+            <li><a href="https://www.linkedin.com/in/michael-tselos-56574b184"><i class="devicon-linkedin-plain"></i></a></li>
+            <li><a href="https://github.com/Michael1895"><i class="devicon-github-original"></i></a></li>
+            <li><a href="mailto:michael.tselos@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          </ul>
+        </div>
+        
+        <!-- summary section -->
+        <div class="summary">
+          <div class="row summary-title">
+            <h2 class="text-center text-danger">Summary</h2>
+          </div>
+            <div class="row summary-text">
+              <div class="col-md-12">
+                <p>University graduate looking for a Junior Backend Developer role in a modern company which provides opportunities to learn and develop as a software professional. I’m highly interested in programming and keeping up with the latest technology trends. I am familiar with the following technologies:</p>
+
+                <div class="col-md-3 col-sm-3">
+                  <p>Java</p>
+                  <p>Spring Boot</p>            
+                </div>
+                <div class="col-md-3 col-sm-3">
+                  <p>PostgreSQL</p>
+                  <p>MySQL</p>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                  <p>Linux</p>
+                  <p>Docker</p>  
+                </div>
+                <div class="col-md-3 col-sm-3">
+                  <p>Git</p>
+                  <p>REST API</p>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        
+        <!-- projects section -->
+        <div class="projects">
+          <h2 class="text-center text-danger">Projects</h2>
+          <div class="row projects-title">
+            <div class="col-md-12">
+              <h3>Backend of a location-based application (Diploma thesis)</h3>
+            </div>
+          </div>
+          <div class="row projects-summary">
+            <div class="col-md-12">
+              <p>Backend of a location-based app developed in Java language combined with the Spring Boot framework. The app enables users to register new accounts, upload files and pictures and create “games” which have different quests and consist of a series of different scenes. Implemented functionality:</p>
+              <ul>
+                <li>Account registering with email verification, account deletion, password resetting through email and user login with JWT (JSON Web Token) support for authorization.</li>
+                <li>REST API for requesting and responding with JSON for CRUD operations.</li>
+                <li>PostgreSQL database and Docker for deployment.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="row projects-title">
+            <div class="col-md-12">
+              <h3>IT project management application</h3>
+            </div>
+          </div>
+          <div class="row projects-summary">
+            <div class="col-md-12">
+              <p>Web app built for the purpose of managing IT projects undertaken by the research lab of the university. It was developed using the LAMP stack (Linux, Apache, MySQL, PHP) and supports CRUD functionality for the projects and the staff of the laboratory. The frontend of the app was developed using Bootstrap.</p>
+            </div>
+          </div>
+
+          <div class="row projects-title">
+            <div class="col-md-12">
+              <h3>Homemade Fire Alarm System</h3>
+            </div>
+          </div>
+          <div class="row projects-summary">
+            <div class="col-md-12">
+              <p>Arduino project programmed in C that checks the room temperature and if it is above a set threshold an alarm goes off to alert the user.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- education section -->
+        <div class="projects">
+          <h2 class="text-center text-danger">Education</h2>
+          <div class="row projects-title">
+            <div class="col-md-9">
+              <h3>University of West Attica</h3>
+              <h4>Electrical and Electronic Engineering</h4>
+            </div>
+            <div class="col-md-3">
+              <h3>2014-2020</h3>
+            </div>
+          </div>
+          <div class="row projects-summary">
+            <div class="col-md-12">
+              <p>Graduate of the Electrical and Electronic Engineering Department with specialization in Computer Systems (5 year curriculum - Integrated Master). Grade: 7.16.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- scroll up button -->
+<button onclick="topFunction()" id="myBtn" title="Go to the top of the page">&#8593;</button>
+
+<script>
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  
+</body>
+</html>

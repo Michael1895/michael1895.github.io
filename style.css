@@ -1,0 +1,72 @@
+body {
+  background: #1B1B25;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.separator {
+  width: 30%;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.title a:link {
+  color: #2576ac;
+}
+.title a:hover {
+  color: #db4d57;
+  text-decoration: none;
+}
+.title hr {
+  width: 75%;
+}
+
+.summary {
+  padding: 20px;
+}
+.summary .summary-title {
+  margin-bottom: 15px;
+}
+.summary .summary-text {
+  margin-top: 10px;
+}
+.summary p {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.projects {
+  padding: 20px;
+}
+.projects .projects-title {
+  margin-top: 10px;
+}
+.projects .projects-summary {
+  margin-top: 10px;
+}
+.projects p {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 400px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: lightgray; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px 12px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
