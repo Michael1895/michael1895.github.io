@@ -23,30 +23,16 @@ body {
   width: 75%;
 }
 
-.summary {
+.siteBody {
   padding: 20px;
 }
-.summary .summary-title {
+.siteBody .siteBody-title {
   margin-bottom: 15px;
 }
-.summary .summary-text {
+.siteBody .siteBody-text {
   margin-top: 10px;
 }
-.summary p {
-  font-size: 1.6rem;
-  letter-spacing: 0.2rem;
-}
-
-.projects {
-  padding: 20px;
-}
-.projects .projects-title {
-  margin-top: 10px;
-}
-.projects .projects-summary {
-  margin-top: 10px;
-}
-.projects p {
+.siteBody p {
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
 }
@@ -54,19 +40,19 @@ body {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 400px; /* Place the button 30px from the right */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 50%;  /*Place the button px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: lightgray; /* Set a background color */
+  background-color: rgba(211, 211, 211, 0.2); /* Set a background color */
   color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 5px 12px; /* Some padding */
+  padding: 6px 17px; /* Some padding */
   border-radius: 50%; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 23px; /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: lightgray; /* Add a dark-grey background on hover */
 }
